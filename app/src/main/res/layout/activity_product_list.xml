@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ProductList">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/primary_color_gradient"
+            android:fontFamily="@font/century_bold_italic"
+            app:titleTextAppearance="@style/youstyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="3dp"
+            android:text="showing"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:elevation="50dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="10dp"
+            app:fab_addButtonColorNormal="@color/secondary_color"
+            app:fab_addButtonColorPressed="@color/navyblue"
+            app:fab_addButtonPlusIconColor="@color/black"
+            app:fab_labelStyle="@style/floatbutton"
+
+            >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/filter_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/secondary_color"
+                app:fab_colorPressed="@color/navyblue"
+                app:fab_icon="@drawable/sort"
+                app:fab_title="A to Z" />
+
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/go_to_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/secondary_color"
+                app:fab_colorPressed="@color/navyblue"
+                app:fab_icon="@drawable/home_black"
+                app:fab_title="Go To Home" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.CategoryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/tv1">
+
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/categorycard">
+
+                <TextView
+                    android:id="@+id/categoryame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/casanovascotia"
+                    android:paddingStart="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Airpods"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/category_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/categoryame"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/century_bold"
+                    android:text="True Wireless"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:layout_below="@+id/category_description"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/black" />
+
+                <Button
+                    android:id="@+id/see_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:text="See All"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/category_imgview"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="-15dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

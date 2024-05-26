@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/cart" android:fromDegrees="60" android:pivotX="50%" android:pivotY="50%" android:toDegrees="90" />
+        <color android:color="@color/navyblue" />
+
+
+    </item>
+
+
+</selector>
+
+

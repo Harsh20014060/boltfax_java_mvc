@@ -1,0 +1,152 @@
+{
+  "project_info": {
+    "project_number": "835557542476",
+    "firebase_url": "https://boltfax-d55b9-default-rtdb.firebaseio.com",
+    "project_id": "boltfax-d55b9",
+    "storage_bucket": "boltfax-d55b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835557542476:android:f114a96f81b2c52366c2e9",
+        "android_client_info": {
+          "package_name": "com.application.boltfax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835557542476-4lojssfg99dome1vs36h2c473d01c8vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.boltfax",
+            "certificate_hash": "e85e830bf7c1707afe73c17ed43ff08c8cb656f9"
+          }
+        },
+        {
+          "client_id": "835557542476-h5q5gd8gvq126or75qe49iimghsni0an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.boltfax",
+            "certificate_hash": "194b03205de8baeb31cea18de14539d928e6cfcb"
+          }
+        },
+        {
+          "client_id": "835557542476-k4j67kmm9t68n6fs7l18jq8scnnvmjrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.boltfax",
+            "certificate_hash": "3c3352a96faf7aea8cc7665424873439d5986d07"
+          }
+        },
+        {
+          "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwl8wf3awPhQib_s9qljoBrgzF5l5ODJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1862035894487465~9775775525"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835557542476:android:5bde0bfd318e234966c2e9",
+        "android_client_info": {
+          "package_name": "com.example.aduse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwl8wf3awPhQib_s9qljoBrgzF5l5ODJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835557542476:android:38d1c7cf8f3266cb66c2e9",
+        "android_client_info": {
+          "package_name": "com.example.insertdatafirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwl8wf3awPhQib_s9qljoBrgzF5l5ODJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835557542476:android:3d798c67771b09df66c2e9",
+        "android_client_info": {
+          "package_name": "com.example.retrieve_data"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwl8wf3awPhQib_s9qljoBrgzF5l5ODJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835557542476-ds48rrp1cf5qu26av2japhfeav1gliu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codeIncubnator.boltfax">
+    package="com.application.boltfax">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,44 +14,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BoltFax">
         <activity
-            android:name="com.codeIncubnator.boltfax.Feedack_And_Suggestion"
+            android:name="com.application.boltfax.Feedack_And_Suggestion"
             android:exported="false" />
         <activity
-            android:name="com.codeIncubnator.boltfax.UnderDevelopment"
+            android:name="com.application.boltfax.UnderDevelopment"
             android:exported="false" />
         <activity
-            android:name="com.codeIncubnator.boltfax.TermAndConditions"
+            android:name="com.application.boltfax.TermAndConditions"
             android:exported="false" />
         <activity
-            android:name="com.codeIncubnator.boltfax.PrivacyAndPolicy"
+            android:name="com.application.boltfax.PrivacyAndPolicy"
             android:exported="false" />
         <activity
-            android:name="com.codeIncubnator.boltfax.OurStory"
+            android:name="com.application.boltfax.OurStory"
             android:exported="false" />
         <activity
-            android:name="com.codeIncubnator.boltfax.SearchPage"
+            android:name="com.application.boltfax.SearchPage"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.ProductList"
+            android:name="com.application.boltfax.ProductList"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.SignUpPage"
+            android:name="com.application.boltfax.SignUpPage"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.MainActivity"
+            android:name="com.application.boltfax.MainActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.Notifications"
+            android:name="com.application.boltfax.Notifications"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.LoginPage"
+            android:name="com.application.boltfax.LoginPage"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.ForgottenPassword"
+            android:name="com.application.boltfax.ForgottenPassword"
             android:exported="true" />
         <activity
-            android:name="com.codeIncubnator.boltfax.SplashScreen"
+            android:name="com.application.boltfax.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

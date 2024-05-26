@@ -1,0 +1,39 @@
+package com.application.boltfax;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class UnderDevelopment extends AppCompatActivity {
+    TextView text;
+    ImageButton backbutton;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_under_development);
+
+        text = findViewById(R.id.universal_backstrip_text);
+        backbutton = findViewById(R.id.universal_backstrip_backbutton);
+
+        Intent name = getIntent();
+
+
+        text.setText(name.getStringExtra("title").toString());
+
+        backbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent abc = new Intent(UnderDevelopment.this, com.application.boltfax.MainActivity.class);
+                abc.putExtra("frag", "4");
+                startActivity(abc);
+
+            }
+        });
+    }
+}

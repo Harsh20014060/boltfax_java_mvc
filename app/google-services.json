@@ -64,7 +64,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:835557542476:android:4b684f699fe1ec1666c2e9",
         "android_client_info": {
-          "package_name": "com.codeIncubnator.boltfax"
+          "package_name": "com.application.boltfax"
         }
       },
       "oauth_client": [
@@ -72,7 +72,7 @@
           "client_id": "835557542476-65ubco1i0nljsikgr42e2bidatf9mro8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.codeIncubnator.boltfax",
+            "package_name": "com.application.boltfax",
             "certificate_hash": "180bb580ab1b2ace42cef2466188a9741e344da8"
           }
         },
